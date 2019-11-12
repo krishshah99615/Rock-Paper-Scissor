@@ -1,0 +1,41 @@
+.container-1{
+    margin: 100px 100px;
+    width: 75%;
+    
+}
+.card{
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    
+    border:5px dashed black;
+}
+
+.player img{
+    height: 150px;
+    width: 150px;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.options{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    border:5px dashed black;
+}
+.options img{
+    height: 150px;
+    width: 150px;
+}
+.options img:hover{
+    box-shadow:0px 10px 50px rgb(0, 0, 255) ;
+}
+h3{
+    text-align: center;
+}
